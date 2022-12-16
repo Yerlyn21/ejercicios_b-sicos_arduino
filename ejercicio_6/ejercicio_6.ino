@@ -11,7 +11,7 @@ Serial.begin(9600);
 }
 
 void zumbador_pulsador () {
-  if(digitalRead(pulsador)==HIGH&&b==2){
+  if(digitalRead(pulsador) == HIGH && b == 2){
  digitalWrite(zumbador, HIGH);
         delay(tiempo);
  digitalWrite(zumbador, HIGH);
@@ -23,7 +23,7 @@ void zumbador_pulsador () {
 }
 
 void loop() {
- for (int  b = 0; b<5; b ++){
+ for (int  b = 0; b < 5; b ++){
   digitalWrite(leds[b],HIGH);
     delay(tiempo);
   digitalWrite(leds[b], LOW);
