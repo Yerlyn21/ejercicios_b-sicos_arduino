@@ -22,6 +22,7 @@ void zumbador_pulsador () {
    } 
 }
 
+// Comentario
 void loop() {
  for (int  b = 0; b < 5; b ++){
   digitalWrite(leds[b],HIGH);
